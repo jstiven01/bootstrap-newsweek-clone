@@ -22,7 +22,7 @@ body {
   padding: 15px;
 }
 
-#subscribe-svg {
+#subscribe-icon {
   display: none;
 }
 
@@ -83,11 +83,23 @@ body {
 }
 
 @media only screen and (min-width: 481px) {
-  #subscribe-svg {
+  #subscribe-icon {
     display: inline;
-    width: 8px;
-    height: 14px;
-    margin-left: 10px;
+    margin-left: 5px;
+  }
+
+  #sign-in-link {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .links-navbar {
+    font-size: 18px;
+  }
+
+  #subscribe-link {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -95,6 +107,18 @@ body {
   #brand-svg {
     width: 396px;
     height: 60px;
-    margin: 10px auto 0;
+  }
+
+  .brand-logo > a{
+    margin: 0 auto;
+  }
+
+  .row-lg-navbar {
+    height: 95px;
+    padding: 20px 10px 15px;
+  }
+  .current-date {
+    color: white;
+    font-size: 16px;
   }
 }
