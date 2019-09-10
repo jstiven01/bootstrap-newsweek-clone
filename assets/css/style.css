@@ -1,3 +1,100 @@
-body{
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
 
+.fill-white {
+  fill: white;
+}
+
+.fill-red {
+  fill: #f72210;
+}
+
+#brand-svg {
+  display: block;
+  width: 132px;
+  min-width: 132px;
+  height: 20px;
+}
+
+.brand-logo {
+  padding: 15px;
+}
+
+#subscribe-svg {
+  display: none;
+}
+
+.navbar-background-color {
+  background-color: #f72210;
+}
+
+.links-navbar {
+  line-height: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  width: 50%;
+  letter-spacing: -1px;
+}
+
+#sign-in-link {
+  color: white;
+  padding: 6px 3px;
+}
+
+#subscribe-link {
+  background-color: white;
+  color: #f72210;
+  padding: 6px 3px;
+}
+
+.navbar-toggler-icon-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+.navbar-toggler-icon-menu > span,
+.navbar-toggler-icon-menu::before,
+.navbar-toggler-icon-menu::after {
+  display: block;
+  width: 24px;
+  height: 4px;
+  background-color: #fb9a94;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-toggler-icon-menu::before,
+.navbar-toggler-icon-menu::after {
+  content: "";
+}
+
+.navbar-toggler-icon-menu > span {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+@media only screen and (min-width: 481px) {
+  #subscribe-svg {
+    display: inline;
+    width: 8px;
+    height: 14px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #brand-svg {
+    width: 396px;
+    height: 60px;
+    margin: 10px auto 0;
+  }
 }
