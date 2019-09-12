@@ -7,6 +7,14 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+
 .fill-white {
   fill: white;
 }
@@ -83,6 +91,17 @@ ul {
 .navbar-toggler-icon-menu > span {
   margin-top: 4px;
   margin-bottom: 4px;
+}
+
+.ul-toggler {
+  text-align: right;
+  background-color: white;
+  border-bottom-color: #f4f5f6;
+  color: black;
+  opacity: 1;
+  visibility: visible;
+  overflow-y: scroll;
+  width: 220px;
 }
 
 @media only screen and (min-width: 481px) {
