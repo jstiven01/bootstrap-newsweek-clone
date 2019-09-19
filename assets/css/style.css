@@ -112,6 +112,15 @@ a:hover {
   background: url('https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf') center center / cover no-repeat;
 }
 
+.genericon {
+  font-size: 26px;
+  vertical-align: top;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+}
+
+
 @media only screen and (min-width: 481px) {
   #subscribe-icon {
     display: inline;
