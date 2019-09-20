@@ -11,6 +11,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 a:hover {
   text-decoration: none;
 }
@@ -113,7 +114,7 @@ a:hover {
   background: url('https://web.archive.org/web/20190912132153im_/https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png') 0 0/contain no-repeat;
 }
 
-#background-subscribe-newsletter{
+#background-subscribe-newsletter {
   background: url('https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf') center center / cover no-repeat;
 }
 
@@ -138,10 +139,6 @@ a:hover {
   margin-bottom: 12px;
 }
 
-.list-social li:first-child {
-  margin-left: 0;
-}
-
 .list-social > li {
   margin-left: 10px;
 }
@@ -150,6 +147,10 @@ a:hover {
   padding-right: 20px;
   margin: 6px 0;
   cursor: pointer;
+}
+
+.list-social li:first-child {
+  margin-left: 0;
 }
 
 .footer-links-section {
@@ -165,6 +166,11 @@ a:hover {
   color: #666;
 }
 
+.footer-links-edition > span {
+  margin-top: 6px;
+  margin-right: 15px
+}
+
 .footer-links-menu > li > a:hover {
   color: black;
 }
@@ -173,6 +179,11 @@ a:hover {
   color: black;
 }
 
+.footer-ul-links-edition > li {
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+}
 
 @media only screen and (min-width: 481px) {
   #subscribe-icon {
@@ -192,6 +203,20 @@ a:hover {
   #subscribe-link {
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-links-menu > li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  .footer-ul-links-edition > li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -223,7 +248,7 @@ a:hover {
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
     position: absolute;
-    right: 0px;
+    right: 0;
     top: 95px;
   }
 
@@ -251,10 +276,6 @@ a:hover {
     color: black;
   }
 
-  .ul-links-tabs li:first-child {
-    border-left-width: 0;
-  }
-
   .ul-links-tabs > li {
     border-left-color: #d9d9d9;
     flex-grow: 1;
@@ -263,6 +284,10 @@ a:hover {
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  .ul-links-tabs li:first-child {
+    border-left-width: 0;
   }
 
   #icon-search {
