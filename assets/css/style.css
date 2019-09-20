@@ -9,7 +9,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 a:hover {
   text-decoration: none;
@@ -28,6 +28,11 @@ a:hover {
   width: 132px;
   min-width: 132px;
   height: 20px;
+}
+
+#brand-svg-footer {
+  width: 236px;
+  height: 36px;
 }
 
 .brand-logo {
@@ -118,6 +123,54 @@ a:hover {
   text-align: center;
   display: block;
   cursor: pointer;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin: 12px 0 12px 0;
+}
+
+.list-social {
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.list-social li:first-child {
+  margin-left: 0;
+}
+
+.list-social > li {
+  margin-left: 10px;
+}
+
+.footer-links-menu > li {
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.footer-links-section {
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.footer-links-edition {
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.footer-links-menu > li > a:hover {
+  color: black;
+}
+
+.footer-ul-links-edition > li > a:hover {
+  color: black;
 }
 
 
