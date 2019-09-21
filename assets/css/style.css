@@ -131,7 +131,6 @@ a:hover {
   line-height: 12px;
   text-transform: uppercase;
   color: #666;
-  margin: 12px 0 12px 0;
 }
 
 .list-social {
@@ -149,12 +148,17 @@ a:hover {
   cursor: pointer;
 }
 
+.footer-ul-links-edition > li {
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
 .list-social li:first-child {
   margin-left: 0;
 }
 
 .footer-links-section {
-  padding-top: 6px;
   font-size: 14px;
   line-height: 15px;
   color: #666;
@@ -168,7 +172,7 @@ a:hover {
 
 .footer-links-edition > span {
   margin-top: 6px;
-  margin-right: 15px
+  margin-right: 15px;
 }
 
 .footer-links-menu > li > a:hover {
@@ -177,12 +181,6 @@ a:hover {
 
 .footer-ul-links-edition > li > a:hover {
   color: black;
-}
-
-.footer-ul-links-edition > li {
-  padding-right: 20px;
-  margin: 6px 0;
-  cursor: pointer;
 }
 
 @media only screen and (min-width: 481px) {
@@ -234,7 +232,7 @@ a:hover {
     height: 95px;
     padding: 20px 10px 15px;
   }
-  
+
   .current-date {
     color: white;
     font-size: 16px;
@@ -297,5 +295,9 @@ a:hover {
     clip: auto;
     overflow: hidden;
     margin-left: 5px;
+  }
+
+  .footer-links-edition > span {
+    margin-left : 82px;
   }
 }
