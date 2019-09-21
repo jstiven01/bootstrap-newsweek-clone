@@ -1,10 +1,20 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  background-color: #f4f5f6;
 }
 
 ul {
   list-style: none;
+}
+
+main {
+  background-color: white;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: white;
 }
 
 a {
@@ -34,6 +44,12 @@ a:hover {
 #brand-svg-footer {
   width: 236px;
   height: 36px;
+}
+
+.main-container {
+  max-width: 1310px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .brand-logo {
@@ -247,7 +263,7 @@ a:hover {
     border-top: 13px solid #f72210;
     position: absolute;
     right: 0;
-    top: 95px;
+    top: 0;
   }
 
   .row-lg-tabs {
@@ -258,6 +274,7 @@ a:hover {
     border-bottom-width: 2px;
     border-bottom-style: solid;
     z-index: 1;
+    position: relative;
   }
 
   .ul-links-tabs {
