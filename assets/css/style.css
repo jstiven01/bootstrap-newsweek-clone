@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -52,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 10px;
   position: relative;
   color: black;
@@ -227,11 +228,11 @@ h6 {
   margin-right: 15px;
 }
 
-.section-more-stories h4 > a:hover {
+.main-headline > a:hover {
   text-decoration: underline #f72210;
 }
 
-.main-headline > a:hover {
+.section-more-stories h4 > a:hover {
   text-decoration: underline #f72210;
 }
 
@@ -298,14 +299,14 @@ h6 {
   border-top: 1px solid #ddd;
 }
 
-.section-more-stories > article:before,
-.section-more-stories > article:after {
+.section-more-stories > article::before,
+.section-more-stories > article::after {
   content: " ";
   display: table;
 }
 
-.section-more-stories > article:after {
-  clear: both
+.section-more-stories > article::after {
+  clear: both;
 }
 
 .section-more-stories .image {
@@ -322,6 +323,65 @@ h6 {
   font-size: 17px;
   line-height: 20px;
   font-weight: 700;
+}
+
+.section-culture-stories {
+  background-color: #f4f5f7;
+  margin-bottom: 20px;
+}
+
+.section-culture-stories .block-title {
+  color: rgba(3,3,3,.5);
+  padding: 10px;
+}
+
+.culture-list {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.culture-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section-culture-stories picture {
+  padding-bottom: 66.7506%;
+}
+
+.culture-info {
+  padding: 15px 10px 20px;
+}
+
+.culture-info > .title {
+  color: #272727;
+  font: 20px/22px "Lora", serif;
+  margin-bottom: 10px;
+}
+
+.culture-info > .summary {
+  font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: rgba(39, 39, 39, 0.5);
+  margin-bottom: 10px;
+}
+
+.culture-info > .tags {
+  font: 300 13px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: #272727;
+}
+
+.culture-info > .tags > a {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.culture-info > .tags > a:hover {
+  background-color: #272727;
+  color: #c2d4d7;
 }
 
 @media only screen and (min-width: 481px) {
