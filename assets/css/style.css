@@ -232,6 +232,19 @@ h6 {
   text-decoration: underline #f72210;
 }
 
+.section-featured-stories h3 > a:hover {
+  text-decoration: underline #f72210;
+}
+
+.culture-info > .tags > a {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
 .section-more-stories h4 > a:hover {
   text-decoration: underline #f72210;
 }
@@ -331,7 +344,7 @@ h6 {
 }
 
 .section-culture-stories .block-title {
-  color: rgba(3,3,3,.5);
+  color: rgba(3, 3, 3, 0.5);
   padding: 10px;
 }
 
@@ -370,18 +383,27 @@ h6 {
   color: #272727;
 }
 
-.culture-info > .tags > a {
-  display: inline-block;
-  background-color: #c2d4d7;
-  padding-left: 6px;
-  padding-right: 6px;
-  margin-right: 6px;
-  margin-bottom: 6px;
-}
-
 .culture-info > .tags > a:hover {
   background-color: #272727;
   color: #c2d4d7;
+}
+
+.featured-stories-title {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.section-featured-stories > article {
+  padding-bottom: 20px;
+}
+
+.section-featured-stories picture {
+  padding-bottom: 66.7506%;
+}
+
+.section-featured-stories h3 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 481px) {
