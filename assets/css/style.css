@@ -406,6 +406,10 @@ h6 {
   font-weight: 700;
 }
 
+.section-opinion {
+  margin-bottom: 30px;
+}
+
 .section-opinion ul > li {
   border-top: 1px solid #ddd;
   padding-top: 10px;
@@ -430,11 +434,11 @@ h6 {
   margin-right: 15px;
 }
 
-.section-opinion ul > li > .info {
+.info {
   flex: 1;
 }
 
-.section-opinion ul > li > .info > a:hover {
+.info > a:hover {
   color: #f72210;
 }
 
@@ -449,6 +453,33 @@ h6 {
 .opinion-latest-news-section {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.section-latest-news {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.section-latest-news > ul > li {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-latest-news > ul > li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.section-latest-news picture {
+  padding-bottom: 66.7506%;
+}
+
+.section-latest-news .image {
+  width: 258px;
+  flex: none;
+  margin-right: 15px;
 }
 
 @media only screen and (min-width: 481px) {
