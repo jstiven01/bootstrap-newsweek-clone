@@ -207,6 +207,21 @@ h6 {
   cursor: pointer;
 }
 
+.section-opinion ul > li {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+.section-latest-news > ul > li {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .list-social li:first-child {
   margin-left: 0;
 }
@@ -239,6 +254,10 @@ h6 {
   padding-right: 6px;
   margin-right: 6px;
   margin-bottom: 6px;
+}
+
+.info > a:hover {
+  color: #f72210;
 }
 
 .section-featured-stories h3 > a:hover {
@@ -410,15 +429,6 @@ h6 {
   margin-bottom: 30px;
 }
 
-.section-opinion ul > li {
-  border-top: 1px solid #ddd;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  display: flex;
-  font: bold 17px/21px "Roboto Condensed",sans-serif;
-  color: black;
-}
-
 .section-opinion ul > li:first-child {
   border-top: 0;
   padding-top: 0;
@@ -438,10 +448,6 @@ h6 {
   flex: 1;
 }
 
-.info > a:hover {
-  color: #f72210;
-}
-
 .byline {
   font-size: 14px;
   line-height: 21px;
@@ -454,12 +460,6 @@ h6 {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   color: black;
   margin-bottom: 30px;
-}
-
-.section-latest-news > ul > li {
-  border-top: 1px solid #ddd;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .section-latest-news > ul > li:first-child {
