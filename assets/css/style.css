@@ -450,11 +450,6 @@ h6 {
   margin-top: 4px;
 }
 
-.opinion-latest-news-section {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .section-latest-news {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   color: black;
@@ -504,6 +499,11 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) {
+  body {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
   .footer-links-menu > li {
     border-right: 1px solid #d9d9d9;
     padding-right: 10px;
@@ -514,6 +514,29 @@ h6 {
     border-right: 1px solid #d9d9d9;
     padding-right: 10px;
     margin-right: 10px;
+  }
+
+  .culture-item {
+    width: 50%;
+  }
+
+  .section-more-stories {
+    height: 220px;
+    overflow-y: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+
+  .section-more-stories .image {
+    width: 135px;
+    margin-bottom: 10px;
+  }
+
+  .section-latest-news .image {
+    width: 135px;
   }
 }
 
