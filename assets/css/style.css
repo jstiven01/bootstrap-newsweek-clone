@@ -26,6 +26,7 @@ picture {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 main {
@@ -485,13 +486,13 @@ h6 {
   padding: 20px;
 }
 
-.sign-up-ad-title {
+.nwsk-title {
   font: bold 19px/19px "Roboto Condensed", sans-serif;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 
-.sign-up-ad-icon {
+.nwsk-icon {
   flex: none;
   display: block;
   width: 29px;
@@ -515,11 +516,11 @@ h6 {
   font: bold 15px/15px "Roboto Condensed", sans-serif;
 }
 
-.cover-wrap {
+.mag-wrap {
   position: relative;
 }
 
-.cover-category{
+.mag-category {
   display: block;
   font: bold 16px/33px "Roboto Condensed", sans-serif;
   color: #f72210;
@@ -532,13 +533,18 @@ h6 {
   z-index: 1;
 }
 
-.cover-picture-size {
+.mag-picture-size {
   display: block;
   background-color: #f0f0f0;
   width: 100%;
 }
 
-.cover-all-features {
+.mag-picture-size > img {
+  width: 100%;
+  opacity: 1;
+}
+
+.mag-all-features {
   display: block;
   background-color: #f4f5f6;
   color: black;
@@ -549,8 +555,92 @@ h6 {
   padding: 10px 10px 10px 12px;
 }
 
-.cover-all-features:hover {
+.mag-all-features:hover {
   background-color: #dbdcdd;
+}
+
+.magazine-articles-top .nwsk-title {
+  margin-top: 30px;
+}
+
+.magazine-articles-top article {
+  position: relative;
+}
+
+ .mag-top-bottom-category  {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mag-top-bottom-category span:first-of-type {
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+}
+
+.mag-top-bottom-category span {
+  display: inline-block;
+}
+
+.magazine-articles-top h5,
+.magazine-articles-bottom h5 {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.magazine-articles-top h5 > a:hover,
+.magazine-articles-bottom h5 > a:hover {
+  text-decoration: underline #f72210;
+}
+
+.wrap-big-shots .image {
+  position: relative;
+}
+
+.big-shot-category {
+  background-color: #f72210;
+  color: white;
+  padding: 0 7px;
+  line-height: 26px;
+  margin: 0;
+  display: block;
+  font: bold 16px/33px "Roboto Condensed", sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+
+}
+
+.wrap-big-shots a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.wrap-big-shot {
+  position: relative;
+}
+
+.magazine-articles-bottom article:last-of-type h5 {
+  margin-top: 10px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Roboto Condensed",sans-serif;
+  position: relative;
+  color: black;
+
 }
 
 @media only screen and (min-width: 481px) {
