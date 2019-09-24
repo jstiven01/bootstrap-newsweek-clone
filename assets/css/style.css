@@ -477,6 +477,82 @@ h6 {
   margin-right: 15px;
 }
 
+.sign-up-ad-section {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.sign-up-ad-title {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.sign-up-ad-icon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.sign-up-link {
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  background-color: #666;
+}
+
+.sign-up-link-pref {
+  color: #333;
+  font: bold 15px/15px "Roboto Condensed", sans-serif;
+}
+
+.cover-wrap {
+  position: relative;
+}
+
+.cover-category{
+  display: block;
+  font: bold 16px/33px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 0 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.cover-picture-size {
+  display: block;
+  background-color: #f0f0f0;
+  width: 100%;
+}
+
+.cover-all-features {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 10px 10px 10px 12px;
+}
+
+.cover-all-features:hover {
+  background-color: #dbdcdd;
+}
+
 @media only screen and (min-width: 481px) {
   #subscribe-icon {
     display: inline;
