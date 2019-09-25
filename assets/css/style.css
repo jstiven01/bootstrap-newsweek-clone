@@ -165,7 +165,23 @@ h6 {
 }
 
 .icon-slideshows {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  color: #e9212e;
   background: url('https://web.archive.org/web/20190912132153im_/https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png') 0 0/contain no-repeat;
+}
+
+.icon-slideshows:hover{
+  color: #e9212e;
 }
 
 #background-subscribe-newsletter {
@@ -242,6 +258,15 @@ h6 {
 .footer-links-edition > span {
   margin-top: 6px;
   margin-right: 15px;
+}
+
+.wrap-big-shots a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
 }
 
 .main-headline > a:hover {
@@ -401,6 +426,15 @@ h6 {
 .culture-info > .tags {
   font: 300 13px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: #272727;
+}
+
+.magazine-articles-top h5 > a:hover,
+.magazine-articles-bottom h5 > a:hover {
+  text-decoration: underline #f72210;
+}
+
+.editors-pick-articles h3 > a:hover {
+  text-decoration: underline #f72210;
 }
 
 .culture-info > .tags > a:hover {
@@ -567,12 +601,16 @@ h6 {
   position: relative;
 }
 
- .mag-top-bottom-category  {
+.mag-top-bottom-category {
   font: bold 16px/26px "Roboto Condensed", sans-serif;
   color: #f72210;
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.mag-top-bottom-category span {
+  display: inline-block;
 }
 
 .mag-top-bottom-category span:first-of-type {
@@ -582,21 +620,12 @@ h6 {
   margin-right: 7px;
 }
 
-.mag-top-bottom-category span {
-  display: inline-block;
-}
-
 .magazine-articles-top h5,
 .magazine-articles-bottom h5 {
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
-}
-
-.magazine-articles-top h5 > a:hover,
-.magazine-articles-bottom h5 > a:hover {
-  text-decoration: underline #f72210;
 }
 
 .wrap-big-shots .image {
@@ -615,16 +644,6 @@ h6 {
   bottom: 0;
   left: 0;
   z-index: 1;
-
-}
-
-.wrap-big-shots a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 2;
 }
 
 .wrap-big-shot {
@@ -637,10 +656,9 @@ h6 {
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 16px;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   position: relative;
   color: black;
-
 }
 
 .editors-pick-section .nwsk-title {
@@ -658,7 +676,43 @@ h6 {
   font-weight: 700;
 }
 
-.editors-pick-articles h3 > a:hover {
+.featured-slideshows-title .nwsk-icon{
+  position: relative;
+  margin-right: 13px;
+}
+.featured-slideshows-title span::after {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+.featured-slideshows-title {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 12px;
+}
+
+.featured-images {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.featured-images picture{
+  padding-bottom: 66.7556%;
+}
+
+.featured-slideshows-articles h4 {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.featured-slideshows-articles h4 > a:hover {
   text-decoration: underline #f72210;
 }
 
