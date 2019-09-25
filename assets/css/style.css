@@ -48,6 +48,10 @@ a:hover {
   color: inherit;
 }
 
+.background-white {
+  background-color: white;
+}
+
 h1,
 h2,
 h3,
@@ -185,7 +189,7 @@ h6 {
 }
 
 #background-subscribe-newsletter {
-  background: url('https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf') center center / cover no-repeat;
+  background: url('https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?') center center / cover no-repeat;
 }
 
 .genericon {
@@ -654,7 +658,6 @@ h6 {
   background-color: #f72210;
   color: white;
   padding: 0 7px;
-  line-height: 26px;
   margin: 0;
   display: block;
   font-size: 16px;
@@ -802,7 +805,6 @@ h6 {
   padding-bottom: 13px;
   padding-right: 90px;
   flex: none;
-
 }
 
 .mag-thumb {
@@ -825,8 +827,8 @@ h6 {
 }
 
 .mag-info p {
-  font: 300 15px/21px "Helvetica Neue", Helvetica,Arial, sans-serif;
-  margin-bottom: 25px
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
 }
 
 .subscribe-button {
@@ -837,6 +839,24 @@ h6 {
 .subscribe-button:hover {
   color: white;
   background-color: #de1f0e;
+}
+
+.subscribe-newsletter-section {
+  margin-bottom: 40px;
+}
+
+.subscribe-newsletter-section .block-title {
+  color: #f72210;
+}
+
+.newsletter-img > div {
+  height: 160px;
+} 
+
+.newsletter-info {
+  text-align: center;
+  border: 1px solid #ebebeb;
+  padding: 20px;
 }
 
 @media only screen and (min-width: 481px) {
