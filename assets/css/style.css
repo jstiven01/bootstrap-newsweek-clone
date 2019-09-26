@@ -1100,4 +1100,14 @@ h6 {
   .footer-links-edition > span {
     margin-left: 82px;
   }
+  
+  .section-more-stories {
+    height: 523px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .section-more-stories {
+    height: 200px;
+  }
 }
