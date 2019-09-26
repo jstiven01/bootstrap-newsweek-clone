@@ -209,7 +209,7 @@ h6 {
 }
 
 .genericon-instagram:hover {
-  color: #405de6;;
+  color: #405de6;
 }
 
 .genericon-tumblr:hover {
@@ -910,6 +910,11 @@ h6 {
     line-height: 20px;
   }
 
+  h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
   .footer-links-menu > li {
     border-right: 1px solid #d9d9d9;
     padding-right: 10px;
@@ -944,6 +949,35 @@ h6 {
   .section-latest-news .image {
     width: 135px;
   }
+
+  .in-mag-title {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 8px;
+  }
+
+  .magazine-articles-top h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .magazine-articles-top img {
+    transform: translate(-50%,0%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    max-width: inherit;
+  }
+
+  .mag-picture-size {
+    padding-bottom: 100%;
+  }
+
+  .magazine-cover .mag-picture-size {
+    padding-bottom: 0;
+  }
+
 }
 
 @media only screen and (min-width: 992px) {
