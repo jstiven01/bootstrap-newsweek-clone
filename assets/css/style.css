@@ -961,7 +961,7 @@ h6 {
   }
 
   .magazine-articles-top img {
-    transform: translate(-50%,0%);
+    transform: translate(-50%, 0%);
     position: absolute;
     top: 0;
     left: 50%;
@@ -979,7 +979,7 @@ h6 {
   }
 
   .magazine-articles-bottom img {
-    transform: translate(-50%,0%);
+    transform: translate(-50%, 0%);
     position: absolute;
     top: 0;
     left: 50%;
