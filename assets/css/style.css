@@ -978,6 +978,26 @@ h6 {
     padding-bottom: 0;
   }
 
+  .magazine-articles-bottom img {
+    transform: translate(-50%,0%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    max-width: inherit;
+  }
+
+  .magazine-articles-bottom h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .magazine-articles-bottom article:last-of-type h5 {
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
