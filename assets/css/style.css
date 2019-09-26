@@ -1007,6 +1007,14 @@ h6 {
     font-size: 22px;
     line-height: 22px;
   }
+
+  .mag-info h3 {
+    font-size: 24px;
+  }
+
+  .newsletter-img > div {
+    height: 100%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
