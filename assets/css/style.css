@@ -23,8 +23,8 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-background-color: darkgrey;
-outline: 1px solid slategrey;
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
 
 ul {
@@ -1086,6 +1086,10 @@ h6 {
 
   .ul-links-tabs > li > a {
     color: black;
+  }
+
+  .ul-links-tabs > li > a:hover {
+    color: #f72210;
   }
 
   .ul-links-tabs > li {
