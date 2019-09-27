@@ -1,0 +1,1158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Newsweek Clone</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/genericons/3.1/genericons.css">
+    <!-- Newsweek Project CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+      <nav class="main-container navbar-background-color">
+          <div class="container-fluid ">
+              <div class="row row-lg-navbar">
+                <div class="d-none d-lg-block col-lg-3 align-self-lg-end current-date">
+                    <time datetime="2014-03-17">Tue, Sep 10, 2019</time>
+                </div>
+                <div class=" col-2 col-lg-6 d-flex align-self-start p-lg-0 brand-logo">
+                    <a href="#"><svg id="brand-svg" class="fill-white" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
+                        <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+                        </g></svg>
+                    </a>
+                </div>
+                <div class="col-10 col-lg-3 p-0 d-flex justify-content-end align-items-center align-items-lg-end links-navbar">
+                    <a id="sign-in-link" href="#">Sign in</a>
+                    <a id="subscribe-link" href="#">Subscribe <div id="subscribe-icon"><span>&#10095;</span></div></a>
+                    <button class="d-lg-none navbar-toggler p-0" type="button">
+                        <span class="navbar-toggler-icon-menu"><span></span></span>
+                    </button>
+                </div>
+              </div>
+              <div class="row row-lg-tabs">
+                <div class="d-none d-lg-block col-lg-10 p-lg-0">
+                  <ul class="d-flex justify-content-center ul-links-tabs">
+                    <li><a href="#">U.S.</a></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Tech & Science</a></li>
+                    <li><a href="#">Culture</a></li>
+                    <li><a href="#">Newsgeek</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Health</a></li>
+                    <li><a href="#">Opinion</a></li>
+                    <li><a href="#">Vantage</a></li>
+                  </ul>
+                </div>
+                <div class="d-none col-lg-2 p-lg-0 d-lg-flex justify-content-start search-form">
+                  <span>Search</span>
+                  <span id="icon-search"></span>
+                  <span id="rectangle" class="align-self-lg-start"></span>
+                </div>
+              </div>
+          </div>
+      </nav>
+      <div class="main-container background-white">
+        <main>
+          <div class="container-fluid">
+            <div class="row justify-content-md-around">
+              <section class="col-12 order-md-2 col-md-6 px-md-0 col-lg-5">
+                <div class="d-md-flex flex-md-column">
+                  <div class="section-top-story order-md-1">
+                    <div class="top-story-title block-title">
+                      Top Story
+                    </div>
+                    <article>
+                      <div class="top-story wrap">
+                        <div class="category"><a href="#">U.S</a></div>
+                        <div class="image">
+                          <a href="#">
+                            <picture class="picture-size">
+                              <img src="https://d.newsweek.com/en/full/1526665/ice.jpg?w=591&h=364&q=90&f=04adda4a59d76e6457f2e3b2f25f2c9b" alt="Top Story image">
+                            </picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h1 class="main-headline"><a href="#">ICE Fails to Redact Document, Reveals 'Urban Warfare' Training Site </a></h1>
+                      <div class="summary">
+                        The U.S. Immigration and Customs Enforcement agency has accidentally revealed the whereabouts of a future "state-of-the-art" training facility that will simulate homes in Chicago and Arizona.
+                      </div>
+                    </article>
+                  </div>
+                  <div class="section-more-stories order-md-3">
+                      <div class="more-stories-title block-title">
+                          MORE STORIES
+                      </div>
+                      <article>
+                        <div class="image">
+                          <a href="#">
+                              <picture class="picture-size">
+                                <img src="https://d.newsweek.com/en/full/1526892/test-tubes-science-experiment-health-stock-getty.jpg?" alt="test tubes, science, experiment, health, stock, getty">
+                              </picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">Chinese Scientists Have Tried to Cure HIV with CRISPR Gene Editing</a></h4>
+                         <div class="summary">"Because of this study, we now know that these edited cells can survive in a patient, and they will stay there," an expert said.</div> 
+                      </article>
+                      <article>
+                        <div class="image">
+                          <a href="#">
+                              <picture class="picture-size">
+                                <img src="https://d.newsweek.com/en/full/1526779/house-dems-mixed-messaging-impeachment.jpg?" alt="House Dems mixed messaging impeachment">
+                              </picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">House Dems Can't Decide Whether They're Conducting an Impeachment Inquiry</a></h4>
+                        <div class="summary">The conflicting messages gives Democrats the opportunity to to play the party's stance on impeachment as they see fit.</div>
+                      </article>
+                      <article>
+                        <div class="image">
+                          <a href="#">
+                              <picture class="picture-size">
+                                <img src="https://d.newsweek.com/en/full/1526910/us-shale-oil-production-prices-opec.jpg?" alt="US shale oil production prices OPEC">
+                              </picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">U.S. Overtook OPEC's Saudi Arabia as World's Top Oil Exporter: IEA</a></h4>
+                         <div class="summary">A shale oil boom in the U.S. is helping to create a glut in supply, putting pressure on OPEC to cut production.</div>
+                      </article>
+                      <article>
+                        <div class="image">
+                          <a href="#">
+                              <picture class="picture-size">
+                                <img src="https://d.newsweek.com/en/full/1526616/donald-trump-china-trade-war-tariffs-recession.jpg?" alt="Donald Trump China trade war tariffs recession">
+                              </picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">China Trade War Escalation Could Cost 800,000 Jobs, Trigger Deep Recession</a></h4>
+                         <div class="summary">There is a 35 percent chance that President Donald Trump escalates his trade war with China and others, Moody's Analytics says.</div>
+                      </article>
+                      <article>
+                        <div class="image">
+                          <a href="#">
+                              <picture class="picture-size">
+                                <img src="https://d.newsweek.com/en/full/1526670/aedes-aegypti-mosquito.jpg?" alt="Aedes aegypti mosquito">
+                              </picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">Mosquito That Can Transmit Zika Discovered in Nebraska for First Time</a></h4>
+                        <div class="summary">"Tracking and monitoring the types of mosquitoes that exist in Nebraska communities is critical, which in turn helps us identify potential public health implications and implement prevention measures to reduce risk," a state epidemiologist said.</div>
+                      </article>
+                      <article>
+                        <div class="image">
+                          <a href="#">
+                              <picture class="picture-size">
+                                <img src="https://d.newsweek.com/en/full/1526893/aoc.jpg?" alt="AOC">
+                              </picture>
+                          </a>
+                        </div>
+                          <h4><a href="#">Ocasio-Cortez Apologizes To Migrants 'On Behalf Of The United States'</a></h4>
+                          <div class="summary">"We're fighting for a better country that we can be proud," New York Rep. Alexandria Ocasio-Cortez told migrants affected by a policy shift that could see people who rely on U.S. medical care to survive deported.</div>
+                      </article>
+                      <article>
+                        <div class="image">
+                          <a href="#">
+                              <picture class="picture-size">
+                                <img src="https://d.newsweek.com/en/full/1526605/pro-abortion-protesters-texas.jpg?" alt="Pro-abortion protesters in Texas">
+                              </picture>
+                          </a>
+                        </div>
+                         <h4><a href="#">Austin, Texas, Becomes First U.S. City to Fund Abortion Support Services</a></h4>
+                        <div class="summary">"Things like transportation and childcare should never be barriers for Texans seeking to access abortion care," said Amanda B. Williams, executive director of the Lilith Fund.</div>
+                      </article>
+                      <article>
+                        <div class="image">
+                          <a href="#">
+                              <picture class="picture-size">
+                                <img src="https://d.newsweek.com/en/full/1526816/house-judiciary-committee-holds-field-hearing-el-paso-immigration-domestic-terrorism.jpg?" alt="House Judiciary Committee Holds Field Hearing In El Paso On Immigration And Domestic Terrorism">
+                              </picture>
+                          </a>
+                        </div>
+                         <h4><a href="#">House Committee Passes Bill Barring Hate Crimes Convicts from Owning Guns</a></h4>
+                        <div class="summary">But the application of this bill, should it pass the Senate and be signed into law by President Donald Trump, an uncertain prospect unto itself, may leave behind perpetrators of hate in various parts of the country.</div>            
+                      </article>
+                  </div>
+                  <div class="section-culture-stories order-md-2">
+                    <div class="title-section block-title"><a href="#">Culture & Travel</a></div>
+                    <div class="culture-list d-flex flex-wrap">
+                        <div class="culture-item">
+                          <div class="culture-img image"><a href="#">
+                            <picture class="picture-size">
+                              <img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1523566/cul-map-fashion-00-use-banner.jpg?w=397&h=265&f=6e6dc176b5debf8bfb261e7d38d7027c" alt="CUL_Map_Fashion_00_USE AS BANNER">
+                            </picture>
+                          </a></div>
+                          <div class="culture-info">
+                            <div class="culture-title title"><a href="#">As NYFW Begins, Take a Tour of the World's Other Fashion Capitals</a></div>
+                            <div class="culture-summary summary">A series of smaller fashion hubs have sprouted up around the globe—home to designers who are often more innovative, more interesting and soon-to-be more influential than long-reigning design legends.</div>
+                            <div class="culture-tags tags"><a href="#">Fashion</a></div>
+                          </div>
+                        </div>
+                        <div class="culture-item">
+                          <div class="culture-img image"><a href="#">
+                            <picture class="picture-size"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1525530/beehive-bees-marriott.jpg?w=397&h=265&f=75219531de8b5b025603a037f78dd840" alt="beehive bees marriott"></picture>
+                          </a></div>
+                          <div class="culture-info">
+                            <div class="culture-title title"><a href="#">Forget Rooftop Gardens: This Brooklyn Restaurant Has an In-house Beehive</a></div>
+                            <div class="culture-summary summary">Two beehives on the roof of the New York Marriott at the Brooklyn Bridge are home to some 2,000 bees, and their "Rooftop Honey" is used in the hotel's in-house restaurant.</div>
+                            <div class="culture-tags tags"><a href="#">Honeybees</a></div>
+                          </div>
+                        </div>
+                        <div class="culture-item">
+                          <div class="culture-img image"><a href="#">
+                            <picture class="picture-size"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/386977/stanley-hotel.jpg?w=397&h=265&f=8007f7e38d186c066a90d5df67da8c36" alt="The Stanley Hotel"></picture>
+                          </a></div>
+                          <div class="culture-info">
+                            <div class="culture-title title"><a href="#">The Hotel From 'The Shining' and Other Iconic, Well-Preserved Hollywood Film Settings</a></div>
+                            <div class="culture-summary summary">From Hobbiton to the gym from "Hoosiers," these film locations are more than mere roadside attractions</div>
+                            <div class="culture-tags tags"><a href="#">Film</a></div>
+                          </div>
+                        </div>
+                        <div class="culture-item">
+                          <div class="culture-img image"><a href="#">
+                            <picture class="picture-size"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1524036/produce-farmers-market.jpg?w=397&h=265&f=08bca8a71f837226e0796362b65d3edd" alt="Produce Farmer's market"></picture>
+                          </a></div>
+                          <div class="culture-info">
+                            <div class="culture-title title"><a href="#">How to Succeed at a French Farmers' Market</a></div>
+                            <div class="culture-summary summary">Follow these tips from "Cook Like a Local in France" to win at the market everytime</div>
+                            <div class="culture-tags tags"><a href="#">France</a></div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>  
+              </section>
+              <section class="col-12 order-md-1 col-md-5 px-md-0 col-lg-3">
+                <div class="section-featured-stories">
+                  <div class="featured-stories-title block-title">FEATURED STORIES</div>
+                  <article>
+                      <div class="wrap-section wrap">
+                        <div class="category"><a href="#">NEWS</a></div>
+                        <div class="image">
+                          <a href="#">
+                            <picture class="picture-size">
+                              <img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1526561/netanyahu-west-bank-annexation-sanders-omar.jpg?w=397&h=265&q=90&f=c56702e597055d88f2c73caf63380db6" alt="Netanyahu, West Bank, annexation, Sanders, Omar">
+                            </picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h3><a href="#">Omar, Sanders Condemn Netanyahu West Bank Annexation Plan</a></h3>
+                      <div class="summary">
+                          Netanyahu made his pledge on Tuesday in a bid to win over right-wing voters ahead of next week's election, which is expected to be close.
+                      </div>
+                  </article>
+                  <article>
+                      <div class="wrap-section wrap">
+                        <div class="category"><a href="#">POLITICS</a></div>
+                        <div class="image">
+                          <a href="#">
+                            <picture class="picture-size">
+                              <img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1526428/per-mcgrath-01-064412556.jpg?w=397&h=265&l=49&t=40&q=90&f=89518dc82ddad2d85ad63e12b0a89379" alt="PER_McGrath_01_064412556">
+                            </picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h3><a href="#">Amy McGrath on How She Plans to Beat Mitch McConnell in 2020</a></h3>
+                      <div class="summary">
+                          A fighter pilot, Amy McGrath has already been to war three times and is now taking on, arguably, the most powerful man of Washington.
+                      </div>
+                  </article>
+                  <article>
+                      <div class="wrap-section wrap">
+                        <div class="category"><a href="#">NEWS</a></div>
+                        <div class="image">
+                          <a href="#">
+                            <picture class="picture-size">
+                              <img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1526183/us-support-hong-kong-protests-china-mattis.jpg?w=397&h=265&q=90&f=75278a11660145f4cd73cfb00f1bdd1f" alt="Us, support, Hong Kong, protests, China, Mattis">
+                            </picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h3><a href="#">James Mattis Calls on U.S. to Challenge China Over Hong Kong</a></h3>
+                      <div class="summary">
+                          Tens of thousands of protesters descended on the U.S. consulate in Hong Kong on Sunday, demanding that the Trump administration lend more support.
+                      </div>
+                  </article>
+                  <article>
+                      <div class="wrap-section wrap">
+                        <div class="category"><a href="#">ANALYSIS</a></div>
+                        <div class="image">
+                          <a href="#">
+                            <picture class="picture-size">
+                              <img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be" alt="The Newsweek Momentum Awards 2019">
+                            </picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h3><a href="#">The Newsweek Momentum Awards</a></h3>
+                      <div class="summary">The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."
+                      </div>
+                  </article>
+      
+                </div>
+              </section>
+              <section class="col-12 order-md-5 col-lg-3 px-lg-0">
+                <div class="opinion-latest-news-section">
+                  <div class="section-opinion">
+                      <div class="opinion-section-title block-title"><a href="#">OPINION</a></div>
+                      <ul class="">
+                        <li>
+                          <div class="image-headshot"><a href="#"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1526503/debbie-wasserman-schultz.png?w=63&h=63&f=4b787884597b69ae07eb2921084cfc37" alt="Debbie Wasserman Schultz"></a></div>
+                          <div class="info">
+                            <a href="#">Trump Is Stealing From Military Families to Pay for His Border Wall</a>
+                            <div class="byline">BY DEBBIE WASSERMAN SCHULTZ</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="image-headshot"><a href="#"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1500185/caroline-lucas.png?w=63&h=63&f=d71ef407bac8053731dd4d4420f545c8" alt="Caroline Lucas"></a></div>
+                          <div class="info">
+                            <a href="#">British Democracy Is on Life Support. We Need a Written Constitution Now</a>
+                            <div class="byline">BY CAROLINE LUCAS</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="image-headshot"><a href="#"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1526803/liz-ryan.png?w=63&h=63&f=57176177eadbf83760cb1b3abf13efde" alt="Liz Ryan"></a></div>
+                          <div class="info">
+                            <a href="#">Juvenile Justice Reform Deserves Time on the Democratic Debate Stage</a>
+                            <div class="byline">BY LIZ RYAN</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="image-headshot"><a href="#"><img src="https://d.newsweek.com/en/full/1527225/hayaatun-sillem.png?w=63&h=63&f=88fe77692f5748b78bfd037e8175fd41" alt="Hayaatun-Sillem"></a></div>
+                          <div class="info">
+                            <a href="#">Diversity is Key to Inspiring a New Generation of Engineers</a>
+                            <div class="byline">BY HAYAATUN SILLEM</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="image-headshot"><a href="#"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="Robert Reich"></a></div>
+                          <div class="info">
+                            <a href="#">Don't Give Up—America Will Bounce Back</a>
+                            <div class="byline">BY ROBERT REICH</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="image-headshot"><a href="#"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1522551/naveed-jamali-2.png?w=63&h=63&f=cd85eb8b53e5a971682dfa42eb36f7fc" alt="Naveed Jamali 2"></a></div>
+                          <div class="info">
+                            <a href="#">Trump Is Recklessly Endangering the Lives of America's Spies</a>
+                            <div class="byline">BY NAVEED JAMALI</div>
+                          </div>
+                        </li>
+                      </ul>
+                  </div>
+                  <div class="section-latest-news">
+                    <div class="latest-news-title block-title"><a href="#">LATEST NEWS</a></div>
+                    <ul>
+                      <li class="d-flex">
+                        <div class="latest-img image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1526932/congress-act-gun-control-red-flag.jpg?w=397&h=265&f=dac3c54a08b5a4fe8b743a86815e5554" alt="congress to act gun control red flag"></picture>
+                          </a>
+                        </div>
+                        <div class="info"><a href="#">Nearly 150 Businesses Urge Senate to Pass Red Flag Laws, Background Checks</a></div>
+                      </li>
+                      <li class="d-flex">
+                        <div class="latest-img image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1526916/sagittarius.jpg?w=397&h=265&f=71b406af9ce1bcf622869d0ba8ba6954" alt="Sagittarius A*"></picture>
+                          </a>
+                        </div>
+                        <div class="info"><a href="#">Milky Way's Supermassive Black Hole Seems to Be Getting Hungrier</a></div>
+                      </li>
+                      <li class="d-flex">
+                        <div class="latest-img image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1526930/florida-man-escapes-death-tattoo-face.jpg?w=397&h=265&f=5e16abcfa227feb85b173dcd1ac421b2" alt="Florida man escapes death tattoo face"></picture>
+                          </a>
+                        </div>
+                        <div class="info"><a href="#">Florida Man With 'Death' Tattoo on Face Breaks Out of Psychiatric Hospital</a></div>
+                      </li>
+                      <li class="d-flex">
+                        <div class="latest-img image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1526921/skin-creaam.png?w=397&h=265&f=ed3f9ad0e59d9d83b95428e3af02d5b4" alt="skin creaam"></picture>
+                          </a>
+                        </div>
+                        <div class="info"><a href="#">Woman Suffers Mercury Poisoning After Using Tainted Mexican Skin Cream</a></div>
+                      </li>
+                      <li class="d-flex">
+                        <div class="latest-img image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1526915/ponytail-cut-off.jpg?w=397&h=265&f=1b2deaa5e91d955981cd0eb18d621096" alt="Ponytail cut off"></picture>
+                          </a>
+                        </div>
+                        <div class="info"><a href="#">Barber Chops off Woman's Ponytail on Bus Because It Touched Him on the Knee</a></div>
+                      </li>
+                      <li class="d-flex">
+                        <div class="latest-img image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1526919/rudy-gobert-france.jpg?w=397&h=265&f=886ca784550e1b3faa4f68a34b17b3b7" alt="Rudy Gobert , France"></picture>
+                          </a>
+                        </div>
+                        <div class="info"><a href="#">FIBA World Cup Bracket: Semifinals Schedule, Live Stream and Latest Odds</a></div>
+                      </li>
+                      <li class="d-flex">
+                        <div class="latest-img image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://web.archive.org/web/20190912132153/https://d.newsweek.com/en/full/1526914/island-off-geraldon-western-australia.jpg?w=397&h=265&f=b707f090966fa820eb263cc35d6ea757" alt="Island off Geraldon, western Australia"></picture>
+                          </a>
+                        </div>
+                        <div class="info"><a href="#">Drug Traffickers Try to Stash $690 Million Haul Under Seaweed</a></div>
+                      </li>
+                    </ul>
+                  </div>  
+                </div>  
+                <section>
+                  <div class="sign-up-ad-section">
+                    <div class="d-flex align-items-center nwsk-title"><span class="nwsk-icon"></span>Sign up for our Newsletter</div>
+                    <a class="sign-up-link" href="#">Sign up ></a>
+                    <br>
+                    <a class="sign-up-link-pref" href="#">Update your preferences »</a>
+                  </div>
+                </section>    
+              </section>
+            </div>
+
+            <div class="row">
+              <section class="col-12">
+                  <div class="magazine-section d-md-flex">
+                    <div class="px-0 col-md-3 align-self-md-end pl-md-0 pr-md-4 magazine-cover">
+                      <div class="mag-wrap">
+                        <div class="image">
+                          <a href="#">
+                            <picture class="mag-picture-size"><img src="https://d.newsweek.com/en/full/1525316/september-13-20-2019.jpg?" alt="September 13-20, 2019"></picture>
+                          </a>
+                        </div>
+                        <div class="mag-category"><a href="#">September 20 ISSUE</a></div>
+                      </div>
+                      <a class="mag-all-features" href="#">See All Features ></a>
+                    </div>
+                    <div class="px-0 col-md-9 pl-md-0 d-md-flex flex-md-column magazine-articles-top">
+                      <div class="in-mag-title d-flex justify-content-center align-items-center nwsk-title"><span class="nwsk-icon"></span>In the magazine</div>
+                      <div class="magazine-top-list-articles d-md-flex flex-md-row">
+                        <article class="px-0 col-md-4 px-md-3 d-md-flex flex-md-column">
+                            <div class="mag-image image">
+                              <a href="#">
+                                <picture class="mag-picture-size"><img src="https://d.newsweek.com/en/full/1524276/fe-anxiety-01-973638320.jpg?w=767&h=512&q=90&f=1b5b643474d5c2dbb3645a526a05b12d" alt="FE_Anxiety_01_973638320"></picture>
+                              </a>
+                            </div>
+                            <div class="mag-top-bottom-category">
+                              <span>COVER</span>
+                              <span><a href="#">TECH & SCIENCE</a></span>
+                            </div>
+                            <h5><a href="#">Scientists' Understanding of Anxiety is Radically Evolving<span></span></a></h5>
+                        </article>
+                        <article class="px-0 col-md-4 px-md-3 d-md-flex flex-md-column">
+                            <div class="mag-image image">
+                              <a href="#">
+                                <picture class="mag-picture-size"><img src="https://d.newsweek.com/en/full/1522447/amazon-rainforest.jpg?w=767&h=512&l=0&t=0&q=90&f=c97c8f8754f8a196acc7c7e79928d5a0" alt="Amazon rainforest"></picture>
+                              </a>
+                            </div>
+                            <div class="mag-top-bottom-category">
+                              <span>FEATURES</span>
+                              <span><a href="#">TECH & SCIENCE</a></span>
+                            </div>
+                            <h5><a href="#">Amazon Rainforest Fires: What the Long-term Damage Could Be<span></span></a></h5>
+                        </article>
+                        <article class="px-0 col-md-4 px-md-3 d-md-flex flex-md-column">
+                            <div class="mag-image image">
+                              <a href="#">
+                                <picture class="mag-picture-size"><img src="https://d.newsweek.com/en/full/1524245/per-bibiswar-01-811598142.jpg?w=767&h=512&q=90&f=f8e302ebc35165d0fe9f99d73adc2ef5" alt="PER_BibisWar_01_811598142"></picture>
+                              </a>
+                            </div>
+                            <div class="mag-top-bottom-category">
+                              <span>DOWNLOADS</span>
+                              <span><a href="#">WORLD</a></span>
+                            </div>
+                            <h5><a href="#"><span>Benjamin Netanyahu is Playing a Dangerous Game With Iranian Allies</span></a></h5>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+              </section>
+            </div>
+
+            <div class="row">
+              <section class="col-12 pt-md-4">
+                  <div class="magazine-section">
+                      <div class="magazine-articles-bottom d-md-flex">
+                          <article class="px-0 col-md-3 pr-md-3 d-md-flex flex-md-column">
+                            <div class="magazine-image image">
+                              <a href="#">
+                                <picture class="mag-picture-size"><img src="https://d.newsweek.com/en/full/1524248/cul-fashionopolis-01-969407778.jpg?w=767&h=512&q=90&f=949c1a849ffc43e23466ae5217ecc1be" alt="CUL_Fashionopolis_01_969407778"></picture>
+                              </a>
+                            </div>
+                            <div class="mag-top-bottom-category">
+                              <span>DOWNTIME</span>
+                              <span><a href="#">CULTURE</a></span>
+                            </div>
+                            <h5><a href="#">The Real Cost of Your Blue Jeans<span></span></a></h5>
+                          </article>
+                          <article class="px-0 col-md-3 pl-md-3 d-md-flex flex-md-column">
+                            <div class="magazine-image image">
+                              <a href="#">
+                                <picture class="mag-picture-size"><img src="https://d.newsweek.com/en/full/1524265/cul-fashionopolis-qa-01-184957333.jpg?w=767&h=512&q=90&f=a41b5bbe0d2d95bb0a79cf2ed8656620" alt="CUL_Fashionopolis_Q&A_01_184957333"></picture>
+                              </a>
+                            </div>
+                            <div class="mag-top-bottom-category">
+                              <span>DOWNTIME</span>
+                              <span><a href="#">CULTURE</a></span>
+                            </div>
+                            <h5><a href="#">Author Dana Thomas on the price of fast fashion<span></span></a></h5>
+                          </article>
+                          <article class="px-0 col-md-3 pl-md-3 d-md-flex flex-md-column">
+                            <div class="magazine-image image">
+                              <a href="#">
+                                <picture class="mag-picture-size"><img src="https://d.newsweek.com/en/full/1523988/partingshot-andredeshields.jpg?w=767&h=512&q=90&f=85617c03b16f2df2e1c4083407ce2d61" alt="PartingShot_andredeshields"></picture>
+                              </a>
+                            </div>
+                            <div class="mag-top-bottom-category">
+                              <span>DOWNTIME</span>
+                              <span><a href="#">CULTURE</a></span>
+                            </div>
+                            <h5><a href="#">Hadestown's André De Shields Talks Diversity on Broadway<span></span></a></h5>
+                          </article>
+                          <article class="px-0 col-md-3 pl-md-3 d-md-flex flex-md-column">
+                            <div class="wrap-big-shot">
+                              <div class="magazine-image image image">
+                                <a href="#">
+                                  <picture class="mag-picture-size"><img src="https://d.newsweek.com/en/full/1524314/heads.jpg?" alt="Heads Up"></picture>
+                                </a>
+                              </div>
+                              <div class="big-shot-category">
+                                BIG SHOTS
+                              </div>
+                            </div>
+                            <h5><a href="#">HEADS UP</a></h5>
+                          </article>
+                      </div>
+                  </div>
+              </section>
+            </div>
+
+            <div class="row">
+              <section class="col-12">
+                <div class="editors-pick-section">
+                  <div class="editors-pick-title d-flex justify-content-center align-items-center nwsk-title">
+                    <span class="nwsk-icon"></span>
+                    EDITOR'S PICK
+                  </div>
+                  <div class="editors-pick-articles d-md-flex flex-md-wrap">
+                    <article class="py-3 px-0 col-md-6 d-md-flex pr-md-2 flex-md-column col-lg-3 px-lg-2">
+                      <div class="wrap">
+                        <div class="editor-category category"><a href="#">U.S.</a></div>
+                        <div class="editor-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526744/steven-menashi-senate-hearing-trump-court-nominee.jpg?" alt="steven menashi senate hearing trump court nominee"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h3><a href="#">Groups Protest Trump Circuit Court Nominee with Racist, Sexist History</a></h3>
+                      <div class="editor-summary">
+                        Protesters gathered outside the Senate Judiciary Committee hearing on Wednesday to rally against President Trump's latest judicial nominee Steven Menashi.
+                      </div>
+                    </article>
+                    <article class="py-3 px-0 col-md-6 d-md-flex pl-md-2 flex-md-column col-lg-3 px-lg-2">
+                      <div class="wrap">
+                        <div class="editor-category category"><a href="#">CULTURE</a></div>
+                        <div class="editor-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526908/barbie-dia-de-muertos-doll.jpg?" alt="barbie dia de muertos doll"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h3><a href="#">Barbie Day of the Dead Doll Goes on Sale</a></h3>
+                      <div class="editor-summary">
+                        Some critics have said that the Barbie holiday release appropriates Mexican culture.
+                      </div>
+                    </article>
+                    <article class="py-3 px-0 col-md-6 d-md-flex pr-md-2 flex-md-column col-lg-3 px-lg-2">
+                      <div class="wrap">
+                        <div class="editor-category category"><a href="#">HEALTH</a></div>
+                        <div class="editor-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526261/transgender-trans-lgbt-lgbtq-getty-stock.jpg?" alt="transgender, trans, lgbt, lgbtq, getty, stock,"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h3><a href="#">Transgender Conversion Therapy Linked to Suicide Attempts, Study Finds</a></h3>
+                      <div class="editor-summary">
+                        "It is clear conversion therapy targeting people who are LGBT is rooted solely in discrimination and hate without any scientific evidence," one expert told Newsweek.
+                      </div>
+                    </article>
+                    <article class="py-3 px-0 col-md-6 d-md-flex pl-md-2 flex-md-column col-lg-3 px-lg-2">
+                      <div class="wrap">
+                        <div class="editor-category category"><a href="#">OPINION</a></div>
+                        <div class="editor-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526875/amazon-tallest-tree.jpg?w=397&h=295&f=d9ff51996e9088cb88bcaeb0bb86672c" alt="amazon tallest tree"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h3><a href="#">Tallest Tree in the Amazon Rainforest Baffles Scientists</a></h3>
+                      <div class="editor-summary">
+                        Scientists found the 288 foot tree during a project to scan parts of the rainforest with lasers.
+                      </div>
+                    </article>
+                    <article class="py-3 px-0 col-md-6 d-md-flex pr-md-2 flex-md-column col-lg-3 px-lg-2">
+                      <div class="wrap">
+                        <div class="editor-category category"><a href="#">POLITICS</a></div>
+                        <div class="editor-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526679/john-bolton-susan-rice-donald-trump-successor.jpg?w=397&h=295&f=dde5ca21479e8bd33145b0162a343eaf" alt="John Bolton, Susan Rice, Donald Trump, successor"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h3><a href="#">Obama Adviser Says Bolton's Successor Will Struggle to Deal With Trump</a></h3>
+                      <div class="editor-summary">
+                        "We have a president who seems to not want to hear anything other than 'yes,'" Susan Rice told MSNBC.
+                      </div>
+                    </article>
+                    <article class="py-3 px-0 col-md-6 d-md-flex pl-md-2 flex-md-column col-lg-3 px-lg-2">
+                      <div class="wrap">
+                        <div class="editor-category category"><a href="#">U.S.</a></div>
+                        <div class="editor-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526645/ice.jpg?w=397&h=295&f=30a896e6e9b4832b644554ecc0178b08" alt="ICE"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h3><a href="#">ICE Building 'Urban Warfare' Training Facility That Simulates U.S. Homes</a></h3>
+                      <div class="editor-summary">"These hyper-realistic devices will allow the teams to have those experiences in real-world conditions without the real-world casualties," a document outlining the plan for the U.S. Immigration and Customs Enforcement agency's new training facility states.</div>
+                    </article>
+                    <article class="py-3 px-0 col-md-6 d-md-flex pr-md-2 flex-md-column col-lg-3 px-lg-2">
+                      <div class="wrap">
+                        <div class="editor-category category"><a href="#">TECH & SCIENCE</a></div>
+                        <div class="editor-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526898/earthworm.jpg?w=397&h=295&f=6752ad2415463bacd2c70269ff2a3ab1" alt="earthworm"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h3><a href="#">Microplastics Stunt the Growth of Worms and Make Them Lose Weight: Study</a></h3>
+                      <div class="editor-summary">
+                        "It's highly likely that any pollution that impacts the health of soil fauna, such as earthworms, may have cascading effects on other aspects of the soil ecosystem, such as plant growth," researcher Connor Russell said.
+                      </div>
+                    </article>
+                    <article class="py-3 px-0 col-md-6 d-md-flex pl-md-2 flex-md-column col-lg-3 px-lg-2">
+                      <div class="wrap">
+                        <div class="editor-category category"><a href="#">NEWS</a></div>
+                        <div class="editor-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1513412/hospital-patient-bed-sick-ill-stock-getty.jpg?w=397&h=295&f=949b6390ccca73e65821d25008101e2c" alt="hospital, patient, bed, sick, ill, stock, getty,"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <h3><a href="#">Teenager Loses Memory Every Two Hours, Thinks Every Day is June 11</a></h3>
+                      <div class="editor-summary">
+                        The teenager has to be reminded every day that her uncle is no longer alive, and has to read over detailed notes each afternoon to remember what was said in class that morning.
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="row">
+              <section class="col-12">
+                <div class="featured-slideshows">
+                  <div class="featured-slideshows-title d-flex justify-content-center align-items-center nwsk-title"><span class="nwsk-icon"></span><a href="#">FEATURED SLIDESHOWS</a></div>
+                  <div class="featured-slideshows-articles d-md-flex flex-md-wrap">
+                    <article class="pb-4 px-0 col-md-4 d-md-flex pr-md-3 flex-md-column">
+                      <div class="featured-images image">
+                        <a href="#">
+                          <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.jpg?" alt="Muir Pass The Great Alone"></picture>
+                        </a>
+                        <a class="icon-slideshows" href="#">7</a>
+                      </div>
+                      <h4><a href="#">The Great Alone: Walking the Pacific Crest Trail<span></span></a></h4>
+                    </article>
+                    <article class="pb-4 px-0 col-md-4 d-md-flex px-md-2 flex-md-column">
+                      <div class="featured-images image">
+                        <a href="#">
+                          <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1521628/galapagos-cerro-brujo.jpg?" alt="Galapagos Cerro Brujo"></picture>
+                        </a>
+                        <a class="icon-slideshows" href="#">4</a>
+                      </div>
+                      <h4><a href="#">Cruise the Galapagos While Conserving Wildlife Found Nowhere Else<span></span></a></h4>
+                    </article>
+                    <article class="pb-4 px-0 col-md-4 d-md-flex pl-md-3 flex-md-column">
+                      <div class="featured-images image">
+                        <a href="#">
+                          <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1521293/still-2-eop.jpg?w=397&h=265&f=c18000449d44d36619eba01997038aec" alt="Still 2 EOP"></picture>
+                        </a>
+                        <a class="icon-slideshows" href="#">8</a>
+                      </div>
+                      <h4><a href="#">The New Documentary Trying to Save the Most Trafficked Mammals in the World<span></span></a></h4>
+                    </article>
+                    <article class="pb-4 px-0 col-md-4 d-md-flex pr-md-3 flex-md-column">
+                      <div class="featured-images image">
+                        <a href="#">
+                          <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1520044/lancaster-meeting-house.jpg?w=397&h=265&f=254c6ae482a2ce8f1b41fa84983bfec3" alt="Lancaster Meeting House"></picture>
+                        </a>
+                        <a class="icon-slideshows" href="#">11</a>
+                      </div>
+                      <h4><a href="#">American Masterpieces: Singular Expressions of National Genius<span></span></a></h4>
+                    </article>
+                    <article class="pb-4 px-0 col-md-4 d-md-flex px-md-2 flex-md-column">
+                      <div class="featured-images image">
+                        <a href="#">
+                          <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1520147/singita-kwitonda-lodge-exterior.jpg?w=397&h=265&f=007300b4c1073aaab105c9adef80744e" alt="Singita-Kwitonda-Lodge-Exterior"></picture>
+                        </a>
+                        <a class="icon-slideshows" href="#">16</a>
+                      </div>
+                      <h4><a href="#">An Eco-Gorilla Opens in Rwanda<span></span></a></h4>
+                    </article>
+                    <article class="pb-4 px-0 col-md-4 d-md-flex pl-md-3 flex-md-column">
+                      <div class="featured-images image">
+                        <a href="#">
+                          <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1519560/junk-artist.png?w=397&h=265&f=cad1adb74cd88024e0877c13b4e8d509" alt="Junk artist"></picture>
+                        </a>
+                        <a class="icon-slideshows" href="#">8</a>
+                      </div>
+                      <h4><a href="#">The Junk Art King of Zambia<span></span></a></h4>
+                    </article>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="row">
+              <section class="col-12">
+                <div class="picks-section">
+                  <div class="block-title"><a href="#">U.S.</a></div>
+                  <div class="d-md-flex articles-section">
+                    <div class="px-0 col-md-4 pr-md-3 wrapper">
+                      <article>
+                        <div class="picks-nws-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526913/ice-agent.jpg?" alt="ICE agent"></picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">ICE Slammed for Saying They Are Preventing Another 9/11</a></h4>
+                      </article>
+                    </div>
+                    <div class="px-0 col-md-4 px-md-2 wrapper">
+                      <article>
+                        <div class="picks-nws-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526878/trump-family.jpg?w=397&h=265&f=7ed9ded6027436ae1b5de49eebdcf441" alt="Trump family"></picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">Trevor Noah Calls Trump 'World's Worst Dad'</a></h4>
+                      </article>
+                    </div>
+                    <div class="px-0 col-md-4 pl-md-3 secondary-news wrapper">
+                      <div class="secondary-news-section">
+                        <ul>
+                          <li class="d-flex">
+                            <div class="sec-news-img image">
+                              <a href="#">
+                                <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526886/walter-white-lookalike-wanted.jpg?" alt="walter white lookalike wanted"></picture>
+                              </a>
+                            </div>
+                            <div class="sec-news-info info"><a href="#">Man Who Looks Like 'Breaking Bad's' Walter White Wanted By Police</a></div>
+                          </li>
+                          <li class="d-flex">
+                            <div class="sec-news-img">
+                              <a href="#">
+                                <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526885/powerball-results-september-11-2019.jpg?" alt="Powerball Results September 11 2019"></picture>
+                              </a>
+                            </div>
+                            <div class="sec-news-info"><a href="#">Did Anyone Win the $50 Million Powerball Jackpot on September 11, 2019?</a></div>
+                          </li>
+                          <li class="d-flex">
+                              <div class="sec-news-img">
+                                <a href="#">
+                                  <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526720/mexican-independence-day-2019.jpg?" alt="Mexican Independence Day 2019"></picture>
+                                </a>
+                              </div>
+                              <div class="sec-news-info"><a href="#">Mexican Independence Day: History, Quotes, How to Celebrate</a></div>
+                          </li>
+                        </ul>
+      
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="block-title"><a href="#">World</a></div>
+                  <div class="d-md-flex articles-section">
+                    <div class="px-0 col-md-4 pr-md-3 wrapper">
+                      <article>
+                        <div class="picks-nws-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526902/don-weerakoon.jpg?w=397&h=265&f=e869463e01c7d07ea5b392f6a38b9209" alt="Don Weerakoon"></picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">Man Drugs Woman, Threatens Her with Fake Gun During Botched Hostage Attempt</a></h4>
+                      </article>
+                    </div>
+                    <div class="px-0 col-md-4 px-md-2 wrapper">
+                      <article>
+                        <div class="picks-nws-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526847/garlic.jpg?" alt="Garlic"></picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">Woman Jailed for Smuggling 2,000 Garlic Bulbs</a></h4>
+                      </article>
+                    </div>
+                    <div class="px-0 col-md-4 pl-md-3 secondary-news wrapper">
+                      <div class="secondary-news-section">
+                        <ul>
+                          <li class="d-flex">
+                            <div class="sec-news-img">
+                              <a href="#">
+                                <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1525932/melania-trump.jpg?" alt="Melania Trump"></picture>
+                              </a>
+                            </div>
+                            <div class="sec-news-info"><a href="#">Justin Trudeau's Mom Calls Melania Trump's Cheek Kiss to Him 'Cute'</a></div>
+                          </li>
+                          <li class="d-flex">
+                            <div class="sec-news-img">
+                              <a href="#">
+                                <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526639/cannabis.jpg?" alt="Cannabis"></picture>
+                              </a>
+                            </div>
+                            <div class="sec-news-info"><a href="#">Man Grew Nearly 700 Cannabis Plants in His Shed</a></div>
+                          </li>
+                          <li class="d-flex">
+                              <div class="sec-news-img">
+                                <a href="#">
+                                  <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526648/circumcision.jpg?" alt="circumcision"></picture>
+                                </a>
+                              </div>
+                              <div class="sec-news-info"><a href="#">Pharmacist Convicted of Having Boy Circumcised Against Parents' Wishes</a></div>
+                          </li>
+                        </ul>
+      
+                      </div>
+      
+                    </div>
+                  </div>
+      
+                  <div class="block-title"><a href="#">Business</a></div>
+                  <div class="d-md-flex articles-section">
+                    <div class="px-0 col-md-4 pr-md-3 wrapper">
+                      <article>
+                        <div class="picks-nws-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1518943/texas-conservative.jpg?" alt="Texas Conservative"></picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">Texas Sees Democratic Party Rise as White Liberals Arrive For Great Economy</a></h4>
+                      </article>
+                    </div>
+                    <div class="px-0 col-md-4 px-md-2 wrapper">
+                      <article>
+                        <div class="picks-nws-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/628727/rtx38eqg.jpg?w=767&h=512&f=b90b0a5c11f33ae0cee049d4dc227ddd" alt="JPMorgan Launches 'Volfefe Index' to Track how Donald Trump's Tweets Impac"></picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">JPMorgan Launches 'Volfefe Index' to Track how Donald Trump's Tweets Impac</a></h4>
+                      </article>
+                    </div>
+                    <div class="px-0 col-md-4 pl-md-3 secondary-news wrapper">
+                      <div class="secondary-news-section">
+                        <ul>
+                          <li class="d-flex">
+                            <div class="sec-news-img">
+                              <a href="#">
+                                <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1525806/kfc-durian.jpg?" alt="KFC durian"></picture>
+                              </a>
+                            </div>
+                            <div class="sec-news-info"><a href="#">KFC China Now Has Durian Chicken Nuggets</a></div>
+                          </li>
+                          <li class="d-flex">
+                            <div class="sec-news-img">
+                              <a href="#">
+                                <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1525627/beer.jpg?" alt="beer"></picture>
+                              </a>
+                            </div>
+                            <div class="sec-news-info"><a href="#">British Hotel Charges Man $68,000 For a Beer</a></div>
+                          </li>
+                          <li class="d-flex">
+                              <div class="sec-news-img">
+                                <a href="#">
+                                  <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1525332/generators-costco.jpg?" alt="generators Costco"></picture>
+                                </a>
+                              </div>
+                              <div class="sec-news-info"><a href="#">Florida Man Buys 100 Generators to Donate to Hurricane-Ravaged Bahamas</a></div>
+                          </li>
+                        </ul>
+      
+                      </div>
+      
+                    </div>
+                  </div>
+      
+                  <div class="block-title"><a href="#">Tech & Science</a></div>
+                  <div class="d-md-flex articles-section">
+                    <div class="px-0 col-md-4 pr-md-3 wrapper">
+                      <article>
+                        <div class="picks-nws-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526692/ancient-kangaroo.jpg?" alt="ancient kangaroo"></picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">Prehistoric Giant Kangaroo As Tall As an Adult Man Had a Powerful Bite</a></h4>
+                      </article>
+                    </div>
+                    <div class="px-0 col-md-4 px-md-2 wrapper">
+                      <article>
+                        <div class="picks-nws-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526654/radio-bubbles.png?" alt="radio bubbles"></picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">Gargantuan, Never-Before-Seen Radio Bubbles Discovered at Milky Way Center</a></h4>
+                      </article>
+                    </div>
+                    <div class="px-0 col-md-4 pl-md-3 secondary-news wrapper">
+                      <div class="secondary-news-section">
+                        <ul>
+                          <li class="d-flex">
+                            <div class="sec-news-img">
+                              <a href="#">
+                                <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526695/k2-18-b.jpg?w=300&h=200&f=6854bff89e6b8f1cc5fc1fb023110f54" alt="K2-18 b"></picture>
+                              </a>
+                            </div>
+                            <div class="sec-news-info"><a href="#">K2-18b: Super-Earth in 'Habitable Zone' Has Water Vapor in Its Atmosphere</a></div>
+                          </li>
+                          <li class="d-flex">
+                            <div class="sec-news-img">
+                              <a href="#">
+                                <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526641/milky-way.jpg?w=300&h=200&f=4f7a89ba9bfd93945a5dced3121e28cf" alt="Milky Way"></picture>
+                              </a>
+                            </div>
+                            <div class="sec-news-info"><a href="#">Mystery Black Hole Appears to Have Hurled a Star Across the Milky Way</a></div>
+                          </li>
+                          <li class="d-flex">
+                              <div class="sec-news-img">
+                                <a href="#">
+                                  <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526244/atlantic-ghost-crab.jpg?w=300&h=200&f=5a41b9c4b3499a1c8d5d2a1623d5c424" alt="atlantic ghost crab"></picture>
+                                </a>
+                              </div>
+                              <div class="sec-news-info"><a href="#">Ghost Crabs Have Stomach Teeth That They Use to Growl at Each Other</a></div>
+                          </li>
+                        </ul>
+      
+                      </div>
+      
+                    </div>
+                  </div>
+      
+                  <div class="block-title"><a href="#">Culture</a></div>
+                  <div class="d-md-flex articles-section">
+                    <div class="px-0 col-md-4 pr-md-3 wrapper">
+                      <article>
+                        <div class="picks-nws-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526828/chrissy-teigen-struggled-how-respond-trumps-twitter-attack.jpg?" alt="Chrissy Teigen Struggled With How To Respond to Trump’s Twitter Attack"></picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">Chrissy Teigen Struggled With How To Respond to Trump's Twitter Attack</a></h4>
+                      </article>
+                    </div>
+                    <div class="px-0 col-md-4 px-md-2 wrapper">
+                      <article>
+                        <div class="picks-nws-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526823/stephen-king-stand-cast.jpg?" alt="stephen-king-the-stand-cast"></picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">'The Stand' Casts Lead Adversaries Randall Flagg and Abagail Freemantle</a></h4>
+                      </article>
+                    </div>
+                    <div class="px-0 col-md-4 pl-md-3 secondary-news wrapper">
+                      <div class="secondary-news-section">
+                        <ul>
+                          <li class="d-flex">
+                            <div class="sec-news-img">
+                              <a href="#">
+                                <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526799/top-10-pizzerias-new-york.jpg?" alt="Top 10 Pizzerias in New York"></picture>
+                              </a>
+                            </div>
+                            <div class="sec-news-info"><a href="#">Top 10 Pizzerias in New York</a></div>
+                          </li>
+                          <li class="d-flex">
+                            <div class="sec-news-img">
+                              <a href="#">
+                                <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526775/lindsie-chrisley-says-her-fathers-financial-scandal-has-wrecked-my-life.jpg?" alt="Lindsie Chrisley Says Her Father's Financial Scandal Has 'Wrecked My Life'"></picture>
+                              </a>
+                            </div>
+                            <div class="sec-news-info"><a href="#">Lindsie Chrisley Says Her Father's Financial Scandal Has 'Wrecked' Her Life</a></div>
+                          </li>
+                          <li class="d-flex">
+                              <div class="sec-news-img">
+                                <a href="#">
+                                  <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526697/how-watch-hbos-9-11-documentary-what-happened-september-11.jpg?w=300&h=200&f=9c6446300b38886e1f27d4e588a7add8" alt="How to Watch HBO's 9/11 Documentary 'What Happened on September 11'"></picture>
+                                </a>
+                              </div>
+                              <div class="sec-news-info"><a href="#">How to Watch HBO's 9/11 Documentary 'What Happened on September 11'</a></div>
+                          </li>
+                        </ul>
+      
+                      </div>
+      
+                    </div>
+                  </div>
+      
+                  <div class="block-title"><a href="#">Sports</a></div>
+                  <div class="d-md-flex articles-section">
+                    <div class="px-0 col-md-4 pr-md-3 wrapper">
+                      <article>
+                        <div class="picks-nws-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526592/cam-newton-carolina-panthers.jpg?" alt="Cam Newton, Carolina Panthers"></picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">NFL TNF: Where to Watch Buccaneers vs. Panthers, TV Channel, Live Stream</a></h4>
+                      </article>
+                    </div>
+                    <div class="px-0 col-md-4 px-md-2 wrapper">
+                      <article>
+                        <div class="picks-nws-image image">
+                          <a href="#">
+                            <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526211/solheim-cup.jpg?" alt="Solheim Cup"></picture>
+                          </a>
+                        </div>
+                        <h4><a href="#">Solheim Cup 2019: Format and Scoring System Explained</a></h4>
+                      </article>
+                    </div>
+                    <div class="px-0 col-md-4 pl-md-3 secondary-news wrapper">
+                      <div class="secondary-news-section">
+                        <ul>
+                          <li class="d-flex">
+                            <div class="sec-news-img">
+                              <a href="#">
+                                <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526800/kevin-owens-smackdown-live-wwe-mic.jpg?w=300&h=200&l=45&t=14&f=bc525aef44ff99e0e6873d306dfcd39e" alt="kevin owens smackdown live wwe mic"></picture>
+                              </a>
+                            </div>
+                            <div class="sec-news-info"><a href="#">Kevin Owens Teases a Return to NXT</a></div>
+                          </li>
+                          <li class="d-flex">
+                            <div class="sec-news-img">
+                              <a href="#">
+                                <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526749/seth-rollins-braun-strowman-clash-champions.jpg?w=300&h=200&l=50&t=18&f=0ba4a8b218c2e5a6bd552bb9d021c756" alt="seth rollins braun strowman clash of champions"></picture>
+                              </a>
+                            </div>
+                            <div class="sec-news-info"><a href="#">Clash of Champions 2019 Card</a></div>
+                          </li>
+                          <li class="d-flex">
+                              <div class="sec-news-img">
+                                <a href="#">
+                                  <picture class="picture-size"><img src="https://d.newsweek.com/en/full/1526685/kemba-walker-team-usa.jpg?" alt="Kemba Walker, Team USA"></picture>
+                                </a>
+                              </div>
+                              <div class="sec-news-info"><a href="#">Team USA out of World Cup as France Snaps 58-competitive Game-winning Run</a></div>
+                          </li>
+                        </ul>
+      
+                      </div>
+      
+                    </div>
+                  </div>
+      
+                </div>
+              </section>
+            </div>
+
+            <div class="row">
+              <section class="col-12">
+                <div class="subscribe-section d-lg-flex">
+                  <div class="col-lg-7 col-xl-8 subscribe-magazine-section d-flex flex-column">
+                    <div class="subs-magazine-title block-title">Subscribe</div>
+                    <div class="subs-magazine-content d-flex flex-column align-items-center flex-md-row justify-content-md-start text-md-left">
+                      <div class="mag-images image">
+                          <div class="mag-thumb"><img src="https://d.newsweek.com/en/full/1523348/september-6-2019-cover.jpg?" alt="Previous Newsweek Magazine"></div>
+                          <div class="mag-thumb mag-main-image"><img src="https://d.newsweek.com/en/full/1525316/september-13-20-2019.jpg?" alt="Current Newsweek Magazine"></div>
+                      </div>
+                      <div class="mag-info px-md-4">
+                        <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+                        <p>All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!</p>
+                        <a class="sign-up-link subscribe-button" href="#"><span>Subscribe ></span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-xl-4 subscribe-newsletter-section d-lg-flex flex-lg-column">
+                    <div class="subs-news-title block-title">NEWSLETTER</div>
+                    <div class="subs-newsletter-content d-md-flex flex-lg-grow-1">
+                      <div class="px-0 col-md-3 pr-md-0 col-lg-6 newsletter-img">
+                        <div id="background-subscribe-newsletter"></div>
+                      </div>
+                      <div class="px-0 col-md-9 px-md-4 newsletter-info text-md-left col-lg-6 mag-info">
+                          <h3>Daily Briefing</h3>
+                          <p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+                          <a class="sign-up-link subscribe-button" href="#"><span>Sign Up ></span></a>
+                      </div>
+                    </div>
+                  </div>               
+                </div>
+              </section>
+            </div>
+          </div>
+        </main>
+        <footer>
+          <div class="footer-section mx-3 py-5 border-top">
+            <div class="container-fluid">
+              <div class="row mx-2 mx-lg-4">
+                    <div class="col-12 pb-0 pl-0 d-flex flex-column col-md-7 flex-md-row pb-md-2 align-items-md-end justify-content-md-start footer-logo">
+                        <a href="#"><svg id="brand-svg-footer" class="fill-red" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
+                            <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+                            </g></svg>
+                        </a>
+                      <span class="copyright py-3 py-md-0 ml-md-3">© 2019 NEWSWEEK</span>
+                    </div>
+                    <ul class="col-12 px-0 d-flex col-md-5 pb-md-2 align-items-md-end justify-content-md-end m-md-0 list-social">
+                      <li><a class="genericon genericon-facebook" href="#"></a></li>
+                      <li><a class="genericon genericon-twitter" href="#"></a></li>
+                      <li><a class="genericon genericon-instagram" href="#"></a></li>
+                      <li><a class="genericon genericon-tumblr" href="#"></a></li>
+                      <li><a class="genericon genericon-linkedin" href="#"></a></li>
+                    </ul>
+              </div>
+              <div class="row mx-2 pt-2 mx-lg-4 border-top">
+                    <div class="col-12 pl-0 col-lg-7 pr-lg-0 footer-links-section">
+                      <ul class="d-flex flex-wrap p-0 mb-0 footer-links-menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Corrections</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Editorial Guidelines</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Copyright</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Terms of Sale</a></li>
+                        <li><a href="#">Archive</a></li>
+                        <li><a href="#">Announcements</a></li>
+                        <li><a href="#">Consent preferences</a></li>
+                      </ul>   
+                    </div>
+                    <div class="col-12 pl-0 d-flex col-lg-5 pl-lg-0 footer-links-edition">
+                      <span><strong>Editions:</strong></span>
+                      <ul class="flex-grow-1 p-0 d-flex flex-wrap footer-ul-links-edition">
+                        <li><a href="#">U.S. Edition</a></li>
+                        <li><a href="#">日本</a></li>
+                        <li><a href="#">한국</a></li>
+                        <li><a href="#">Pakistan</a></li>
+                        <li><a href="#">Polska</a></li>
+                        <li><a href="#">România</a></li>
+                      </ul>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
