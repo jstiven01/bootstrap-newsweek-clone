@@ -6,7 +6,7 @@ This project consists of getting a chance to try out Twitter’s Bootstrap frame
 
 ## Live Version:
 
-You can check the live version [here](https://raw.githack.com/jstiven01/bootstrap-newsweek-clone/newsweek-main-page/index.html)
+You can check the live version [here](https://jstiven01.github.io/bootstrap-newsweek-clone/)
 
 ## Source Page:
 
