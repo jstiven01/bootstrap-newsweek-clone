@@ -17,6 +17,8 @@ https://www.newsweek.com
 
 Twitter’s Bootstrap framework, HTML5 CSS3, using Grid, Flexbox and media querys CSS.
 
+## Author
+
 👤 **Johan Stiven Tinjacá Tocora**
 
 - Github: [@jstiven01](https://github.com/jstiven01)
